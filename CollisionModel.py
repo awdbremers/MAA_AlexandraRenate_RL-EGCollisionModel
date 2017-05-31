@@ -213,7 +213,7 @@ for i in range(steps): #this number specifies how many runs
 #average_collision.plot()
 #plt.show()
 
-### code to plot collisions per angle
+### code to plot rewards per angle
 average_reward = model.datacollector.get_model_vars_dataframe()
 average_reward.plot()
 plt.ylabel("Average Reward")
